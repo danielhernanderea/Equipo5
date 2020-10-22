@@ -3,16 +3,16 @@ body{
     margin: 0;
     border: 0;
     padding: 0;
-    background: url(../img/background.png) no-repeat center top;;
+    background: url(https://www.bbva.com/wp-content/uploads/2019/06/Marqueex2.png) no-repeat center top;;
     background-size: auto;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
 }
 
 .contenedor{
-    width: 300px;
+    width: 350px;
     height: 570px;
-    background:#00000040;
+    background:#000000a3;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -22,13 +22,6 @@ body{
     border-radius: 10px;
 }
 
-.contenedor .logo{
-    width: 250px;
-    height: 80px;
-    position: absolute;
-    top: 50px;
-    border-radius: 10px;
-}
 .contenedor h1{
     color: white;
     text-align: center;
@@ -73,12 +66,15 @@ body{
 }
 
 .contenedor a{
-text-decoration: none;
-font-size: 14px;
-line-height: 20px;
-    color: darkgray;
-
+    text-decoration: none;
+    border: #2d5ba1;
+    background: #2d5ba1;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    border-radius: 50px;
 }
+    
 
 .contenedor a:hover{
     color:#ffffff;
