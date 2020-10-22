@@ -41,6 +41,7 @@ body {
     border: 1px solid var(--acent-color);
     font-family: "calibri";
     font-size: 18px;
+    color: #fff
 }
 
 .form-register p {

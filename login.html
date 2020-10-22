@@ -7,14 +7,14 @@
     <title>Formulario Login</title>
 </head>
 <body>
-    <section class="form-register">
+    <form method = "POST" class="form-register" action="request.php">
         <h4>Login</h4>
         
-        <input class="controls" type="email" class="correo" required="required" id="mail" placeholder="mail">
-        <input class="controls" type="password" class="password" required="required" id="password" placeholder="Ingrese password">
+        <input class="controls correo" type="email" name="mail" required="required" id="mail" placeholder="Email">
+        <input class="controls password" type="password" name = "password"required="required" id="password" placeholder="Ingrese password">
         <input class="botons" type="submit" value="Iniciar sesion"> 
-        <p><a href="#">Crear cuenta</a></p>
+        <p><a href="registro.html">Crear cuenta</a></p>
         <p>Acepto los <a href="#">Términos y condiciones</a></p>
-    </section>
+    </form>
 </body>
 </html>
