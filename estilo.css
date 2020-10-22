@@ -1,0 +1,81 @@
+body{
+    background: red;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: url(https://www.bbva.com/wp-content/uploads/2019/06/Marqueex2.png) no-repeat center top;;
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.contenedor{
+    width: 350px;
+    height: 570px;
+    background:#000000a3;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.contenedor h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0px 20px;        
+}
+
+.contenedor label
+{
+    color: white;
+    display: block;
+
+}
+.contenedor input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor input[type = "text"],
+.contenedor input[type = "email"],
+.contenedor input[type = "password"]{
+    margin-bottom: 15px;
+    border: 0;
+    padding: 0;
+    background: white;
+    height: 35px;  
+    border-radius: 10px;
+}
+
+.contenedor input[type= "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2d5ba1;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.contenedor input[type="submit"]:hover{
+    background:#ffffff;
+    color: black;
+}
+
+.contenedor a{
+    text-decoration: none;
+    border: #2d5ba1;
+    background: #2d5ba1;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    border-radius: 50px;
+}
+    
+
+.contenedor a:hover{
+    color:#ffffff;
+}
